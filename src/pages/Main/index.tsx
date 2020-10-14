@@ -12,7 +12,7 @@ const Main: React.FC = () => {
 
   return (
     <Container>
-      <Description>
+      <Description testID="main-description">
         This is a template to create React Native applications with TypeScript
         and other pretty cool stuff.
       </Description>
