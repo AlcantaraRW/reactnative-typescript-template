@@ -6,16 +6,21 @@ export const Container = styled.View`
   justify-content: center;
 `;
 
+export const IconsContainer = styled.View`
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+`;
+
 export const Description = styled.Text`
   font-size: 18px;
-  margin: 0 20px;
+  margin: 20px;
   text-align: center;
 `;
 
 export const DetailsButton = styled.TouchableOpacity`
   width: 150px;
   height: 40px;
-  margin-top: 15px;
   background-color: #e3e3e3;
   justify-content: center;
   align-items: center;

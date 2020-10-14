@@ -4,7 +4,7 @@ import { Container, Description } from './styles';
 
 const Details: React.FC = () => (
   <Container>
-    <Description>The navigation works!</Description>
+    <Description>Navigation is working!</Description>
   </Container>
 );
 

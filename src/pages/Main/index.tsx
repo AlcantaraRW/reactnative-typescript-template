@@ -1,7 +1,9 @@
-import { useNavigation } from '@react-navigation/native';
 import React from 'react';
+import { useNavigation } from '@react-navigation/native';
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import {
   Container,
+  IconsContainer,
   Description,
   DetailsButton,
   DetailsButtonText,
@@ -12,6 +14,14 @@ const Main: React.FC = () => {
 
   return (
     <Container>
+      <IconsContainer>
+        <Icon name="react" size={40} color="#61DAFB" />
+        <Icon name="plus" size={20} />
+        <Icon name="language-typescript" size={40} color="#3178C6" />
+        <Icon name="equal" size={20} />
+        <Icon name="heart" size={40} color="#FE251B" />
+      </IconsContainer>
+
       <Description testID="main-description">
         This is a template to create React Native applications with TypeScript
         and other pretty cool stuff.

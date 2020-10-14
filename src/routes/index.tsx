@@ -12,7 +12,7 @@ const DefaultRoutes: React.FC = () => (
       <Stack.Screen
         name="Main"
         component={Main}
-        options={{ headerTitle: 'RN + TS ❤️' }}
+        options={{ headerTitle: 'RN + TS Template' }}
       />
 
       <Stack.Screen name="Details" component={Details} />
